@@ -12,7 +12,11 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "",
+  "author": "jiang-24-gdufs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiang-24-gdufs/createRandomEVMWalletsCSV.git"
+  },
   "license": "ISC",
   "dependencies": {
     "csv-writer": "^1.6.0",
