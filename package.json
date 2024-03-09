@@ -1,0 +1,25 @@
+{
+  "name": "create-evm-wallets-csv",
+  "version": "1.0.0",
+  "description": "Creating random EVM wallets In a .csv file",
+  "keywords": [
+    "random",
+    "EVM",
+    "wallets",
+    "csv"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "ethers": "^6.11.1"
+  },
+  "devDependencies": {
+    "csv-parser": "^3.0.0",
+    "jest": "^29.7.0"
+  }
+}
