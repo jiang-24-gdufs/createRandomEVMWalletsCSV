@@ -40,14 +40,6 @@ function createEVMWalletCsv(options) {
     ],
   });
 
-  csvWriter.writeRecords(data)
-  return data
+  return csvWriter.writeRecords(data)
 }
-createEVMWalletCsv({
-  number: 10,
-  path: './wallet.csv',
-  index: false,
-  privateKeyProps: 'pk',
-  addressProps: 'addr'
-})
 module.exports = createEVMWalletCsv;
