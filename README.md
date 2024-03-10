@@ -5,13 +5,13 @@ This module provides a createEVMWalletCsv function, which generates a specified 
 ## Installation
 
 ```bash
-npm install create-evm-wallet-csv
+npm install create-evm-wallets-csv
 ```
 
 ## Usage
 
 ```javascript
-const createEVMWalletCsv = require('create-evm-wallet-csv');
+const createEVMWalletCsv = require('create-evm-wallets-csv');
 
 createEVMWalletCsv();
 ```

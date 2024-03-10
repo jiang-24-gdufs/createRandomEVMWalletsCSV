@@ -5,13 +5,13 @@
 ## 安装
 
 ```bash
-npm install create-evm-wallet-csv
+npm install create-evm-wallets-csv
 ```
 
 ## 使用
 
 ```javascript
-const createEVMWalletCsv = require('create-evm-wallet-csv');
+const createEVMWalletCsv = require('create-evm-wallets-csv');
 
 createEVMWalletCsv();
 ```
