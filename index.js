@@ -35,8 +35,8 @@ function createEVMWalletCsv(options) {
     path: path,
     header: [
       ...header,
-      { id: 'address', title: privateKeyProps },
-      { id: 'privateKey', title: addressProps },
+      { id: 'address', title: addressProps },
+      { id: 'privateKey', title: privateKeyProps },
     ],
   });
 
